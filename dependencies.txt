@@ -12,4 +12,4 @@ com.unity.collab-proxy@1.2.16
 com.unity.ugui@1.0.0
 com.unity.ide.vscode@1.2.3
 com.unity.connect.share@2.0.3
-com.unity.template.platformer@1.4.0
+com.unity.template.platformer@1.5
