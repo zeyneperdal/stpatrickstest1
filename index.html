@@ -3,23 +3,56 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Happy St Patricks Week</title>
+    <title>Special St Patricks Game</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/gameoverscreen.json", {onProgress: UnityProgress});
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/final.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
     <div class="webgl-content">
       <div id="unityContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
-        <div class="webgl-logo"></div>
+       <!-- <div class="webgl-logo"></div> -->
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">Happy St Patricks Week</div>
+        <div class="title">Click here for Full Screen</div>
       </div>
     </div>
+      
+      <article class="l_board">
+  <header>
+
+    <h1 class="l_board__title"><span class="l_board__title--top">Leaderboard</span><span class="l_board__title--bottom"></span></h1>
+  </header>
+  
+  <main class="l_board__profiles">
+    <article class="l_board__profile">
+     
+      <span class="l_board__name">User 1</span>
+      <span class="l_board__value">8000</span>
+    </article>
+    
+    <article class="l_board__profile">
+     
+      <span class="l_board__name">User 2</span>
+      <span class="l_board__value">5950</span>
+    </article>
+    
+    <article class="l_board__profile">
+    
+      <span class="l_board__name">User 3 </span>
+      <span class="l_board__value">4700</span>
+    </article>
+    
+    <article class="l_board__profile">
+     
+      <span class="l_board__name">Test 123</span>
+      <span class="l_board__value">4300</span>
+    </article>
+  </main>
+    </article>
   </body>
 </html>
