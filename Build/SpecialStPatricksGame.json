@@ -1,0 +1,16 @@
+{
+"companyName": "Apple",
+"productName": "Happy St Patricks Week",
+"productVersion": "1",
+"dataUrl": "SpecialStPatricksGame.data.unityweb",
+"wasmCodeUrl": "SpecialStPatricksGame.wasm.code.unityweb",
+"wasmFrameworkUrl": "SpecialStPatricksGame.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.19f1"
+}
